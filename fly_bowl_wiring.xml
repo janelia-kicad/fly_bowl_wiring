@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/polidorop/git/kicad/fly_bowl_wiring/fly_bowl_wiring.sch</source>
+    <date>Mon 21 May 2018 10:29:06 AM EDT</date>
+    <tool>Eeschema 5.0.0-rc2-unknown-c49a439~65~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>fly_bowl_wiring</title>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>fly_bowl_wiring.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW1">
+      <value>SPST_PENDANT_WASHDOWN</value>
+      <fields>
+        <field name="Vendor">mcmaster</field>
+        <field name="PartNumber">6944K11</field>
+        <field name="Description">Pendant Switch Washdown Push Button</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="SPST_PENDANT_WASHDOWN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0145C3</tstamp>
+    </comp>
+    <comp ref="SOCKET1">
+      <value>SOCKET_CRIMP_22-24AWG_GOLD</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2512-ND</field>
+        <field name="Description">CONN TERM FEMALE 22-24AWG GOLD</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="SOCKET_CRIMP_22-24AWG_GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B018E5F</tstamp>
+    </comp>
+    <comp ref="SOCKET2">
+      <value>SOCKET_CRIMP_22-24AWG_GOLD</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2512-ND</field>
+        <field name="Description">CONN TERM FEMALE 22-24AWG GOLD</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="SOCKET_CRIMP_22-24AWG_GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B018EE5</tstamp>
+    </comp>
+    <comp ref="RECPT1">
+      <value>RECEPTACLE_FEMALE_SOCKET_01x02</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2800-ND</field>
+        <field name="Description">CONN HOUSING 2POS .100 SINGLE</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="RECEPTACLE_FEMALE_SOCKET_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B018FD6</tstamp>
+    </comp>
+    <comp ref="PLUG1">
+      <value>PLUG_MALE_PIN_01x02</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2533-ND</field>
+        <field name="Description">CONN HOUSING MALE 2POS .100</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="PLUG_MALE_PIN_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B01922A</tstamp>
+    </comp>
+    <comp ref="RECPT2">
+      <value>RECEPTACLE_FEMALE_SOCKET_01x02</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2800-ND</field>
+        <field name="Description">CONN HOUSING 2POS .100 SINGLE</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="RECEPTACLE_FEMALE_SOCKET_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B01933C</tstamp>
+    </comp>
+    <comp ref="SOCKET3">
+      <value>SOCKET_CRIMP_22-24AWG_GOLD</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2512-ND</field>
+        <field name="Description">CONN TERM FEMALE 22-24AWG GOLD</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="SOCKET_CRIMP_22-24AWG_GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B019492</tstamp>
+    </comp>
+    <comp ref="SOCKET4">
+      <value>SOCKET_CRIMP_22-24AWG_GOLD</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2512-ND</field>
+        <field name="Description">CONN TERM FEMALE 22-24AWG GOLD</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="SOCKET_CRIMP_22-24AWG_GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B019713</tstamp>
+    </comp>
+    <comp ref="PIN1">
+      <value>PIN_CRIMP_22-24AWG_GOLD</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2515-ND</field>
+        <field name="Description">CONN TERM MALE 22-24AWG GOLD</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="PIN_CRIMP_22-24AWG_GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B019983</tstamp>
+    </comp>
+    <comp ref="PIN2">
+      <value>PIN_CRIMP_22-24AWG_GOLD</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2515-ND</field>
+        <field name="Description">CONN TERM MALE 22-24AWG GOLD</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="PIN_CRIMP_22-24AWG_GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B019ABC</tstamp>
+    </comp>
+    <comp ref="CABLE1">
+      <value>CABLE_2_COND_22AWG</value>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">A120-100-ND</field>
+        <field name="Description">MULTI-PAIR 2COND 22AWG 100FT</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="CABLE_2_COND_22AWG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B01C678</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="fly_bowl_wiring" part="CABLE_2_COND_22AWG">
+      <fields>
+        <field name="Reference">CABLE</field>
+        <field name="Value">CABLE_2_COND_22AWG</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">A120-100-ND</field>
+        <field name="Description">MULTI-PAIR 2COND 22AWG 100FT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fly_bowl_wiring" part="PIN_CRIMP_22-24AWG_GOLD">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PIN</field>
+        <field name="Value">PIN_CRIMP_22-24AWG_GOLD</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2515-ND</field>
+        <field name="Description">CONN TERM MALE 22-24AWG GOLD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="~" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fly_bowl_wiring" part="PLUG_MALE_PIN_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PLUG</field>
+        <field name="Value">PLUG_MALE_PIN_01x02</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2533-ND</field>
+        <field name="Description">CONN HOUSING MALE 2POS .100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fly_bowl_wiring" part="RECEPTACLE_FEMALE_SOCKET_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RECPT</field>
+        <field name="Value">RECEPTACLE_FEMALE_SOCKET_01x02</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2800-ND</field>
+        <field name="Description">CONN HOUSING 2POS .100 SINGLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fly_bowl_wiring" part="SOCKET_CRIMP_22-24AWG_GOLD">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SOCKET</field>
+        <field name="Value">SOCKET_CRIMP_22-24AWG_GOLD</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">WM2512-ND</field>
+        <field name="Description">CONN TERM FEMALE 22-24AWG GOLD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="~" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fly_bowl_wiring" part="SPST_PENDANT_WASHDOWN">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST_PENDANT_WASHDOWN</field>
+        <field name="Vendor">mcmaster</field>
+        <field name="PartNumber">6944K11</field>
+        <field name="Description">Pendant Switch Washdown Push Button</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="fly_bowl_wiring">
+      <uri>/home/polidorop/git/kicad/fly_bowl_wiring/fly_bowl_wiring.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(PIN1-Pad~)">
+      <node ref="PLUG1" pin="1"/>
+      <node ref="PIN1" pin="~"/>
+    </net>
+    <net code="2" name="Net-(RECPT2-Pad1)">
+      <node ref="SOCKET3" pin="~"/>
+      <node ref="RECPT2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(RECPT2-Pad2)">
+      <node ref="RECPT2" pin="2"/>
+      <node ref="SOCKET4" pin="~"/>
+    </net>
+    <net code="4" name="Net-(PIN2-Pad~)">
+      <node ref="PIN2" pin="~"/>
+      <node ref="PLUG1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(CABLE1-Pad1)">
+      <node ref="CABLE1" pin="1"/>
+      <node ref="PIN1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(CABLE1-Pad1)">
+      <node ref="SOCKET3" pin="1"/>
+      <node ref="CABLE1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(CABLE1-Pad2)">
+      <node ref="PIN2" pin="1"/>
+      <node ref="CABLE1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(CABLE1-Pad2)">
+      <node ref="SOCKET4" pin="1"/>
+      <node ref="CABLE1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(SOCKET1-Pad1)">
+      <node ref="SOCKET1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(SOCKET2-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="SOCKET2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(RECPT1-Pad1)">
+      <node ref="SOCKET1" pin="~"/>
+      <node ref="RECPT1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(RECPT1-Pad2)">
+      <node ref="SOCKET2" pin="~"/>
+      <node ref="RECPT1" pin="2"/>
+    </net>
+  </nets>
+</export>

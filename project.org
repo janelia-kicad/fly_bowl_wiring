@@ -1,0 +1,13 @@
+* Header                                                           :noexport:
+
+  #+MACRO: name fly_bowl_wiring
+  #+MACRO: version 1.0
+  #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/fly_bowl_wiring
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peterpolidoro@gmail.com
+
+* Description
+
+
+* Assembly Instructions
