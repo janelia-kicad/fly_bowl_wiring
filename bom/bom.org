@@ -1,0 +1,7 @@
+# Created 2018-10-24 Wed 16:03
+* Bill of Materials
+#+RESULTS: pcb-parts
+| Item | Reference(s) | Quantity | PartNumber  | Vendor  | Description                      |
+|------+--------------+----------+-------------+---------+----------------------------------|
+|    1 | J1           |        1 | 277-2667-ND | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
+|    2 | J2           |        1 | 277-2668-ND | digikey | CONN DSUB RCPT 9POS STR TERM BLK |

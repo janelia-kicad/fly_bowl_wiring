@@ -1,0 +1,52 @@
+# Created 2018-10-24 Wed 16:04
+#+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
+* Repository Information
+
+- Name :: fly_bowl_wiring
+- Version :: 1.0
+- License :: Open-Source Hardware
+- URL :: https://github.com/janelia-kicad/fly_bowl_wiring
+- Author :: Peter Polidoro
+- Email :: peterpolidoro@gmail.com
+
+** Description
+
+* Images
+
+* Schematic
+
+[[file:./schematic/fly_bowl_wiring.pdf][./schematic/fly_bowl_wiring.pdf]]
+
+[[file:./schematic/images/schematic00.png]]
+
+* Gerbers
+
+Send gerbers zip file to your favorite PCB manufacturer for fabrication.
+
+[[file:./gerbers/*.zip][./gerbers/*.zip]]
+
+[[file:./gerbers/images/*.png]]
+
+* Bill of Materials
+
+** PCB Parts
+
+| Item | Reference(s) | Quantity | PartNumber  | Vendor  | Description                      |
+|------+--------------+----------+-------------+---------+----------------------------------|
+|    1 | J1           |        1 | 277-2667-ND | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
+|    2 | J2           |        1 | 277-2668-ND | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
+
+** Supplemental Parts
+
+| Item | Quantity | PartNumber | Vendor | Description |
+|------+----------+------------+--------+-------------|
+
+** Vendor Parts Lists
+
+[[file:./bom/digikey_parts.csv][./bom/digikey_parts.csv]]
+
+[[file:./bom/supplemental_digikey_parts.csv][./bom/supplemental_digikey_parts.csv]]
+
+* Supplemental Documentation
+
+** Assembly Instructions
