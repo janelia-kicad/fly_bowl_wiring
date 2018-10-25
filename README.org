@@ -1,4 +1,4 @@
-# Created 2018-10-24 Wed 16:04
+# Created 2018-10-25 Thu 11:00
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -20,12 +20,6 @@
 [[file:./schematic/images/schematic00.png]]
 
 * Gerbers
-
-Send gerbers zip file to your favorite PCB manufacturer for fabrication.
-
-[[file:./gerbers/*.zip][./gerbers/*.zip]]
-
-[[file:./gerbers/images/*.png]]
 
 * Bill of Materials
 
