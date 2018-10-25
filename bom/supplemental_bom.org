@@ -1,4 +1,8 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | PartNumber    | Vendor  | Description                              |
-|------+----------+---------------+---------+------------------------------------------|
+| Item | Quantity | PartNumber   | Vendor  | Description                   |
+|------+----------+--------------+---------+-------------------------------|
+|    1 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL           |
+|    2 |        2 | 277-2767-ND  | digikey | DSUB CAP NUT W/SEAL           |
+|    3 |        2 | 277-2722-ND  | digikey | DSUB CAP NUT W/SEAL           |
+|    4 |        2 | A33692-ND    | digikey | CONN D-SUB FEMALE SCREW LOCK  |
