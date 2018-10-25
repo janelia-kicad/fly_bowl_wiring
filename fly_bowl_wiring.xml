@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/fly_bowl_wiring/fly_bowl_wiring.sch</source>
-    <date>Thu 25 Oct 2018 03:07:48 PM EDT</date>
+    <date>Thu 25 Oct 2018 04:46:15 PM EDT</date>
     <tool>Eeschema 6.0.0-rc1-unknown-ce496ff~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -182,6 +182,28 @@
       <sheetpath names="/fly_bowl_0/" tstamps="/5BD215BE/"/>
       <tstamp>5BD4F9E7</tstamp>
     </comp>
+    <comp ref="BL1">
+      <value>BACKLIGHT_SV_MOBL_150X150</value>
+      <fields>
+        <field name="Description">Maximum Operating Backlight 150x150</field>
+        <field name="PartNumber">MOBL_150x150</field>
+        <field name="Vendor">smartvisionlights</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="BACKLIGHT_SV_MOBL_150X150" description=""/>
+      <sheetpath names="/fly_bowl_0/" tstamps="/5BD215BE/"/>
+      <tstamp>5BD2A2DE</tstamp>
+    </comp>
+    <comp ref="CAMERA1">
+      <value>CAMERA_FL3-U3-13Y3M-C</value>
+      <fields>
+        <field name="Description">1280x1024 150 FPS Mono</field>
+        <field name="PartNumber">FL3-U3-13Y3M-C</field>
+        <field name="Vendor">flir</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="CAMERA_FL3-U3-13Y3M-C" description=""/>
+      <sheetpath names="/fly_bowl_0/" tstamps="/5BD215BE/"/>
+      <tstamp>5BD313D9</tstamp>
+    </comp>
     <comp ref="F4">
       <value>FAN_40x40x10MM_24V</value>
       <fields>
@@ -248,6 +270,28 @@
       <libsource lib="fly_bowl_wiring" part="CABLE_USB3_TYPE-A_MICRO-B_3M" description=""/>
       <sheetpath names="/fly_bowl_1/" tstamps="/5BD213AA/"/>
       <tstamp>5BD4F9E7</tstamp>
+    </comp>
+    <comp ref="BL2">
+      <value>BACKLIGHT_SV_MOBL_150X150</value>
+      <fields>
+        <field name="Description">Maximum Operating Backlight 150x150</field>
+        <field name="PartNumber">MOBL_150x150</field>
+        <field name="Vendor">smartvisionlights</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="BACKLIGHT_SV_MOBL_150X150" description=""/>
+      <sheetpath names="/fly_bowl_1/" tstamps="/5BD213AA/"/>
+      <tstamp>5BD2A2DE</tstamp>
+    </comp>
+    <comp ref="CAMERA2">
+      <value>CAMERA_FL3-U3-13Y3M-C</value>
+      <fields>
+        <field name="Description">1280x1024 150 FPS Mono</field>
+        <field name="PartNumber">FL3-U3-13Y3M-C</field>
+        <field name="Vendor">flir</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="CAMERA_FL3-U3-13Y3M-C" description=""/>
+      <sheetpath names="/fly_bowl_1/" tstamps="/5BD213AA/"/>
+      <tstamp>5BD313D9</tstamp>
     </comp>
     <comp ref="F6">
       <value>FAN_40x40x10MM_24V</value>
@@ -316,6 +360,28 @@
       <sheetpath names="/fly_bowl_2/" tstamps="/5BD21DA0/"/>
       <tstamp>5BD4F9E7</tstamp>
     </comp>
+    <comp ref="BL3">
+      <value>BACKLIGHT_SV_MOBL_150X150</value>
+      <fields>
+        <field name="Description">Maximum Operating Backlight 150x150</field>
+        <field name="PartNumber">MOBL_150x150</field>
+        <field name="Vendor">smartvisionlights</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="BACKLIGHT_SV_MOBL_150X150" description=""/>
+      <sheetpath names="/fly_bowl_2/" tstamps="/5BD21DA0/"/>
+      <tstamp>5BD2A2DE</tstamp>
+    </comp>
+    <comp ref="CAMERA3">
+      <value>CAMERA_FL3-U3-13Y3M-C</value>
+      <fields>
+        <field name="Description">1280x1024 150 FPS Mono</field>
+        <field name="PartNumber">FL3-U3-13Y3M-C</field>
+        <field name="Vendor">flir</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="CAMERA_FL3-U3-13Y3M-C" description=""/>
+      <sheetpath names="/fly_bowl_2/" tstamps="/5BD21DA0/"/>
+      <tstamp>5BD313D9</tstamp>
+    </comp>
     <comp ref="F8">
       <value>FAN_40x40x10MM_24V</value>
       <fields>
@@ -383,8 +449,39 @@
       <sheetpath names="/fly_bowl_3/" tstamps="/5BD21DAE/"/>
       <tstamp>5BD4F9E7</tstamp>
     </comp>
+    <comp ref="BL4">
+      <value>BACKLIGHT_SV_MOBL_150X150</value>
+      <fields>
+        <field name="Description">Maximum Operating Backlight 150x150</field>
+        <field name="PartNumber">MOBL_150x150</field>
+        <field name="Vendor">smartvisionlights</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="BACKLIGHT_SV_MOBL_150X150" description=""/>
+      <sheetpath names="/fly_bowl_3/" tstamps="/5BD21DAE/"/>
+      <tstamp>5BD2A2DE</tstamp>
+    </comp>
+    <comp ref="CAMERA4">
+      <value>CAMERA_FL3-U3-13Y3M-C</value>
+      <fields>
+        <field name="Description">1280x1024 150 FPS Mono</field>
+        <field name="PartNumber">FL3-U3-13Y3M-C</field>
+        <field name="Vendor">flir</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="CAMERA_FL3-U3-13Y3M-C" description=""/>
+      <sheetpath names="/fly_bowl_3/" tstamps="/5BD21DAE/"/>
+      <tstamp>5BD313D9</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="fly_bowl_wiring" part="BACKLIGHT_SV_MOBL_150X150">
+      <fields>
+        <field name="Reference">BL</field>
+        <field name="Value">BACKLIGHT_SV_MOBL_150X150</field>
+        <field name="Vendor">smartvisionlights</field>
+        <field name="PartNumber">MOBL_150x150</field>
+        <field name="Description">Maximum Operating Backlight 150x150</field>
+      </fields>
+    </libpart>
     <libpart lib="fly_bowl_wiring" part="CABLE_DB9_PATCH_2M">
       <footprints>
         <fp>DB*M*</fp>
@@ -419,6 +516,15 @@
         <field name="Vendor">digikey</field>
         <field name="PartNumber">GC14333-ND</field>
         <field name="Description">USB3.0-A-USB3.0-MICRO-B 3M GOLD</field>
+      </fields>
+    </libpart>
+    <libpart lib="fly_bowl_wiring" part="CAMERA_FL3-U3-13Y3M-C">
+      <fields>
+        <field name="Reference">CAMERA</field>
+        <field name="Value">CAMERA_FL3-U3-13Y3M-C</field>
+        <field name="Vendor">flir</field>
+        <field name="PartNumber">FL3-U3-13Y3M-C</field>
+        <field name="Description">1280x1024 150 FPS Mono</field>
       </fields>
     </libpart>
     <libpart lib="fly_bowl_wiring" part="DB9F_TERM_BLK">

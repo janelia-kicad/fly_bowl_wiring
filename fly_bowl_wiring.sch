@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:fly_bowl_wiring-cache
 EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500

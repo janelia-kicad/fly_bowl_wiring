@@ -1,12 +1,14 @@
-# Created 2018-10-25 Thu 15:08
+# Created 2018-10-25 Thu 16:47
 * Bill of Materials
 #+RESULTS: pcb-parts
-| Item | Reference(s)                                                | Quantity | PartNumber    | Vendor  | Description                      |
-|------+-------------------------------------------------------------+----------+---------------+---------+----------------------------------|
-|    1 | CABLE1 CABLE2                                               |        2 | 1195-7211-ND  | digikey | CABLE ASSY DB09 SHLD BEIGE 2M    |
-|    2 | CABLE10 CABLE11 CABLE13 CABLE14 CABLE4 CABLE5 CABLE7 CABLE8 |        8 | 277-8345-ND   | digikey | CBL FMALE RA TO MALE 5POS 1.5M   |
-|    3 | CABLE12 CABLE3 CABLE6 CABLE9                                |        4 | GC14333-ND    | digikey | USB3.0-A-USB3.0-MICRO-B 3M GOLD  |
-|    4 | F1 F2 F3 F4 F5 F6 F7 F8                                     |        8 | 381-2367-ND   | digikey | FAN AXIAL 40X10MM 24VDC WIRE     |
-|    5 | J1                                                          |        1 | 277-2667-ND   | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
-|    6 | J2                                                          |        1 | 277-2668-ND   | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
-|    7 | L1 L2 L3 L4                                                 |        4 | 475-2864-2-ND | digikey | EMITTER IR 860NM 100MA SMD       |
+| Item | Reference(s)                                                | Quantity | PartNumber     | Vendor            | Description                         |
+|------+-------------------------------------------------------------+----------+----------------+-------------------+-------------------------------------|
+|    1 | BL1 BL2 BL3 BL4                                             |        4 | MOBL_150x150   | smartvisionlights | Maximum Operating Backlight 150x150 |
+|    2 | CABLE1 CABLE2                                               |        2 | 1195-7211-ND   | digikey           | CABLE ASSY DB09 SHLD BEIGE 2M       |
+|    3 | CABLE10 CABLE11 CABLE13 CABLE14 CABLE4 CABLE5 CABLE7 CABLE8 |        8 | 277-8345-ND    | digikey           | CBL FMALE RA TO MALE 5POS 1.5M      |
+|    4 | CABLE12 CABLE3 CABLE6 CABLE9                                |        4 | GC14333-ND     | digikey           | USB3.0-A-USB3.0-MICRO-B 3M GOLD     |
+|    5 | CAMERA1 CAMERA2 CAMERA3 CAMERA4                             |        4 | FL3-U3-13Y3M-C | flir              | 1280x1024 150 FPS Mono              |
+|    6 | F1 F2 F3 F4 F5 F6 F7 F8                                     |        8 | 381-2367-ND    | digikey           | FAN AXIAL 40X10MM 24VDC WIRE        |
+|    7 | J1                                                          |        1 | 277-2667-ND    | digikey           | CONN DSUB PLUG 9POS STR TERM BLK    |
+|    8 | J2                                                          |        1 | 277-2668-ND    | digikey           | CONN DSUB RCPT 9POS STR TERM BLK    |
+|    9 | L1 L2 L3 L4                                                 |        4 | 475-2864-2-ND  | digikey           | EMITTER IR 860NM 100MA SMD          |
