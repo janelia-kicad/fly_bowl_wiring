@@ -1,7 +1,10 @@
-# Created 2018-10-24 Wed 16:03
+# Created 2018-10-25 Thu 14:15
 * Bill of Materials
 #+RESULTS: pcb-parts
-| Item | Reference(s) | Quantity | PartNumber  | Vendor  | Description                      |
-|------+--------------+----------+-------------+---------+----------------------------------|
-|    1 | J1           |        1 | 277-2667-ND | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
-|    2 | J2           |        1 | 277-2668-ND | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
+| Item | Reference(s)            | Quantity | PartNumber    | Vendor  | Description                      |
+|------+-------------------------+----------+---------------+---------+----------------------------------|
+|    1 | CABLE1 CABLE2           |        2 | 1195-7211-ND  | digikey | CABLE ASSY DB09 SHLD BEIGE 2M    |
+|    2 | F1 F2 F3 F4 F5 F6 F7 F8 |        8 | 381-2367-ND   | digikey | FAN AXIAL 40X10MM 24VDC WIRE     |
+|    3 | J1                      |        1 | 277-2667-ND   | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
+|    4 | J2                      |        1 | 277-2668-ND   | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
+|    5 | L1 L2 L3 L4             |        4 | 475-2864-2-ND | digikey | EMITTER IR 860NM 100MA SMD       |

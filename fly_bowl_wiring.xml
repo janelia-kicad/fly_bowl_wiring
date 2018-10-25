@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/fly_bowl_wiring/fly_bowl_wiring.sch</source>
-    <date>Wed 24 Oct 2018 04:03:23 PM EDT</date>
+    <date>Thu 25 Oct 2018 02:13:48 PM EDT</date>
     <tool>Eeschema 6.0.0-rc1-unknown-ce496ff~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -11,6 +11,58 @@
         <rev>1.0</rev>
         <date/>
         <source>fly_bowl_wiring.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/fly_bowl_0/" tstamps="/5BD215BE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fly_bowl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/fly_bowl_1/" tstamps="/5BD213AA/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fly_bowl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/fly_bowl_2/" tstamps="/5BD21DA0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fly_bowl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/fly_bowl_3/" tstamps="/5BD21DAE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fly_bowl.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -40,6 +92,164 @@
       <libsource lib="fly_bowl_wiring" part="DB9F_TERM_BLK" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD1F728</tstamp>
+    </comp>
+    <comp ref="CABLE1">
+      <value>DB9_CABLE_PATCH_2M</value>
+      <fields>
+        <field name="Description">CABLE ASSY DB09 SHLD BEIGE 2M</field>
+        <field name="PartNumber">1195-7211-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="DB9_CABLE_PATCH_2M" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD2A4F9</tstamp>
+    </comp>
+    <comp ref="CABLE2">
+      <value>DB9_CABLE_PATCH_2M</value>
+      <fields>
+        <field name="Description">CABLE ASSY DB09 SHLD BEIGE 2M</field>
+        <field name="PartNumber">1195-7211-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="DB9_CABLE_PATCH_2M" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD2B812</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>FAN_40x40x10MM_24V</value>
+      <fields>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V" description=""/>
+      <sheetpath names="/fly_bowl_0/" tstamps="/5BD215BE/"/>
+      <tstamp>5BD278F0</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>LED_DOUBLE_IR</value>
+      <fields>
+        <field name="Description">EMITTER IR 860NM 100MA SMD</field>
+        <field name="PartNumber">475-2864-2-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="LED_DOUBLE_IR" description=""/>
+      <sheetpath names="/fly_bowl_0/" tstamps="/5BD215BE/"/>
+      <tstamp>5BD2BD64</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>FAN_40x40x10MM_24V</value>
+      <fields>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V" description=""/>
+      <sheetpath names="/fly_bowl_0/" tstamps="/5BD215BE/"/>
+      <tstamp>5BD32DB7</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>FAN_40x40x10MM_24V</value>
+      <fields>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V" description=""/>
+      <sheetpath names="/fly_bowl_1/" tstamps="/5BD213AA/"/>
+      <tstamp>5BD278F0</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>LED_DOUBLE_IR</value>
+      <fields>
+        <field name="Description">EMITTER IR 860NM 100MA SMD</field>
+        <field name="PartNumber">475-2864-2-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="LED_DOUBLE_IR" description=""/>
+      <sheetpath names="/fly_bowl_1/" tstamps="/5BD213AA/"/>
+      <tstamp>5BD2BD64</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>FAN_40x40x10MM_24V</value>
+      <fields>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V" description=""/>
+      <sheetpath names="/fly_bowl_1/" tstamps="/5BD213AA/"/>
+      <tstamp>5BD32DB7</tstamp>
+    </comp>
+    <comp ref="F6">
+      <value>FAN_40x40x10MM_24V</value>
+      <fields>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V" description=""/>
+      <sheetpath names="/fly_bowl_2/" tstamps="/5BD21DA0/"/>
+      <tstamp>5BD278F0</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>LED_DOUBLE_IR</value>
+      <fields>
+        <field name="Description">EMITTER IR 860NM 100MA SMD</field>
+        <field name="PartNumber">475-2864-2-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="LED_DOUBLE_IR" description=""/>
+      <sheetpath names="/fly_bowl_2/" tstamps="/5BD21DA0/"/>
+      <tstamp>5BD2BD64</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>FAN_40x40x10MM_24V</value>
+      <fields>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V" description=""/>
+      <sheetpath names="/fly_bowl_2/" tstamps="/5BD21DA0/"/>
+      <tstamp>5BD32DB7</tstamp>
+    </comp>
+    <comp ref="F8">
+      <value>FAN_40x40x10MM_24V</value>
+      <fields>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V" description=""/>
+      <sheetpath names="/fly_bowl_3/" tstamps="/5BD21DAE/"/>
+      <tstamp>5BD278F0</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>LED_DOUBLE_IR</value>
+      <fields>
+        <field name="Description">EMITTER IR 860NM 100MA SMD</field>
+        <field name="PartNumber">475-2864-2-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="LED_DOUBLE_IR" description=""/>
+      <sheetpath names="/fly_bowl_3/" tstamps="/5BD21DAE/"/>
+      <tstamp>5BD2BD64</tstamp>
+    </comp>
+    <comp ref="F7">
+      <value>FAN_40x40x10MM_24V</value>
+      <fields>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V" description=""/>
+      <sheetpath names="/fly_bowl_3/" tstamps="/5BD21DAE/"/>
+      <tstamp>5BD32DB7</tstamp>
     </comp>
   </components>
   <libparts>
@@ -89,6 +299,54 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="fly_bowl_wiring" part="DB9_CABLE_PATCH_2M">
+      <footprints>
+        <fp>DB*M*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CABLE</field>
+        <field name="Value">DB9_CABLE_PATCH_2M</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">1195-7211-ND</field>
+        <field name="Description">CABLE ASSY DB09 SHLD BEIGE 2M</field>
+      </fields>
+    </libpart>
+    <libpart lib="fly_bowl_wiring" part="FAN_40x40x10MM_24V">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FAN_40x40x10MM_24V</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">381-2367-ND</field>
+        <field name="Description">FAN AXIAL 40X10MM 24VDC WIRE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDC(RED)" type="passive"/>
+        <pin num="2" name="GND(BLUE)" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fly_bowl_wiring" part="LED_DOUBLE_IR">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">LED_DOUBLE_IR</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">475-2864-2-ND</field>
+        <field name="Description">EMITTER IR 860NM 100MA SMD</field>
+        <field name="Quantity">2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="fly_bowl_wiring">
@@ -96,59 +354,83 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J2-Pad1)">
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="2" name="/LED_0_+">
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="3" name="/LED_0_-">
+    <net code="1" name="/LED_-_0">
+      <node ref="L1" pin="2"/>
       <node ref="J2" pin="3"/>
     </net>
-    <net code="4" name="/LED_1_+">
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="5" name="/LED_1_-">
+    <net code="2" name="/LED_-_1">
       <node ref="J2" pin="5"/>
+      <node ref="L2" pin="2"/>
     </net>
-    <net code="6" name="/LED_2_+">
-      <node ref="J2" pin="6"/>
+    <net code="3" name="/LED_+_1">
+      <node ref="J2" pin="4"/>
+      <node ref="L2" pin="1"/>
     </net>
-    <net code="7" name="/LED_2_-">
-      <node ref="J2" pin="7"/>
+    <net code="4" name="/FAN_-_1">
+      <node ref="J1" pin="4"/>
+      <node ref="F4" pin="2"/>
+      <node ref="F3" pin="2"/>
     </net>
-    <net code="8" name="/LED_3_+">
-      <node ref="J2" pin="8"/>
+    <net code="5" name="/FAN_+_1">
+      <node ref="J1" pin="3"/>
+      <node ref="F3" pin="1"/>
+      <node ref="F4" pin="1"/>
     </net>
-    <net code="9" name="/LED_3_-">
+    <net code="6" name="/FAN_+_2">
+      <node ref="F6" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="F5" pin="1"/>
+    </net>
+    <net code="7" name="/LED_+_0">
+      <node ref="L1" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="8" name="/FAN_-_0">
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="F2" pin="2"/>
+    </net>
+    <net code="9" name="/FAN_+_0">
+      <node ref="J1" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="10" name="/LED_-_3">
+      <node ref="L4" pin="2"/>
       <node ref="J2" pin="9"/>
     </net>
-    <net code="10" name="/FAN_3_-">
+    <net code="11" name="/FAN_+_3">
+      <node ref="F7" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="F8" pin="1"/>
+    </net>
+    <net code="12" name="/LED_+_3">
+      <node ref="L4" pin="1"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="13" name="/FAN_-_3">
       <node ref="J1" pin="8"/>
+      <node ref="F7" pin="2"/>
+      <node ref="F8" pin="2"/>
     </net>
-    <net code="11" name="/FAN_0_-">
-      <node ref="J1" pin="2"/>
+    <net code="14" name="/LED_-_2">
+      <node ref="J2" pin="7"/>
+      <node ref="L3" pin="2"/>
     </net>
-    <net code="12" name="/FAN_1_+">
-      <node ref="J1" pin="3"/>
+    <net code="15" name="/LED_+_2">
+      <node ref="L3" pin="1"/>
+      <node ref="J2" pin="6"/>
     </net>
-    <net code="13" name="Net-(J1-Pad5)">
+    <net code="16" name="/FAN_-_2">
+      <node ref="F6" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="F5" pin="2"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad5)">
       <node ref="J1" pin="5"/>
     </net>
-    <net code="14" name="/FAN_2_+">
-      <node ref="J1" pin="7"/>
-    </net>
-    <net code="15" name="/FAN_3_+">
-      <node ref="J1" pin="9"/>
-    </net>
-    <net code="16" name="/FAN_2_-">
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="17" name="/FAN_1_-">
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="18" name="/FAN_0_+">
-      <node ref="J1" pin="1"/>
+    <net code="18" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
     </net>
   </nets>
 </export>

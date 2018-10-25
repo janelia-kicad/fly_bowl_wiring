@@ -1,0 +1,110 @@
+EESchema Schematic File Version 4
+LIBS:fly_bowl_wiring-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4500 2950 0    50   Input ~ 0
+FAN_+
+Text HLabel 4500 4450 0    50   Input ~ 0
+FAN_-
+$Comp
+L fly_bowl_wiring:FAN_40x40x10MM_24V F2
+U 1 1 5BD278F0
+P 5050 3700
+AR Path="/5BD215BE/5BD278F0" Ref="F2"  Part="1" 
+AR Path="/5BD213AA/5BD278F0" Ref="F4"  Part="1" 
+AR Path="/5BD21DA0/5BD278F0" Ref="F6"  Part="1" 
+AR Path="/5BD21DAE/5BD278F0" Ref="F8"  Part="1" 
+F 0 "F6" H 5300 4250 50  0000 L CNN
+F 1 "FAN_40x40x10MM_24V" V 5600 3700 50  0000 C CNN
+F 2 "" H 5050 3700 50  0001 C CNN
+F 3 "" H 5050 3700 50  0001 C CNN
+F 4 "digikey" H 5050 3700 50  0001 C CNN "Vendor"
+F 5 "381-2367-ND" H 5050 3700 50  0001 C CNN "PartNumber"
+F 6 "FAN AXIAL 40X10MM 24VDC WIRE" H 5050 3700 50  0001 C CNN "Description"
+	1    5050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L fly_bowl_wiring:LED_DOUBLE_IR L1
+U 1 1 5BD2BD64
+P 6550 3750
+AR Path="/5BD215BE/5BD2BD64" Ref="L1"  Part="1" 
+AR Path="/5BD213AA/5BD2BD64" Ref="L2"  Part="1" 
+AR Path="/5BD21DA0/5BD2BD64" Ref="L3"  Part="1" 
+AR Path="/5BD21DAE/5BD2BD64" Ref="L4"  Part="1" 
+F 0 "L3" H 6650 4000 50  0000 L CNN
+F 1 "LED_DOUBLE_IR" V 6800 3750 50  0000 C CNN
+F 2 "" V 6450 3850 60  0001 C CNN
+F 3 "" V 6450 3750 60  0001 C CNN
+F 4 "digikey" H 6550 4500 60  0001 C CNN "Vendor"
+F 5 "475-2864-2-ND" H 6550 4600 60  0001 C CNN "PartNumber"
+F 6 "EMITTER IR 860NM 100MA SMD" H 6550 4700 60  0001 C CNN "Description"
+F 7 "2" H 6550 4800 50  0001 C CNN "Quantity"
+	1    6550 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 6500 3400 0    50   Input ~ 0
+LED_+
+Text HLabel 6500 4100 0    50   Input ~ 0
+LED_-
+Wire Wire Line
+	6550 4050 6550 4100
+Wire Wire Line
+	6550 4100 6500 4100
+Wire Wire Line
+	6500 3400 6550 3400
+Wire Wire Line
+	6550 3400 6550 3450
+$Comp
+L fly_bowl_wiring:FAN_40x40x10MM_24V F1
+U 1 1 5BD32DB7
+P 3900 3700
+AR Path="/5BD215BE/5BD32DB7" Ref="F1"  Part="1" 
+AR Path="/5BD213AA/5BD32DB7" Ref="F3"  Part="1" 
+AR Path="/5BD21DA0/5BD32DB7" Ref="F5"  Part="1" 
+AR Path="/5BD21DAE/5BD32DB7" Ref="F7"  Part="1" 
+F 0 "F5" H 4150 4250 50  0000 L CNN
+F 1 "FAN_40x40x10MM_24V" V 4450 3700 50  0000 C CNN
+F 2 "" H 3900 3700 50  0001 C CNN
+F 3 "" H 3900 3700 50  0001 C CNN
+F 4 "digikey" H 3900 3700 50  0001 C CNN "Vendor"
+F 5 "381-2367-ND" H 3900 3700 50  0001 C CNN "PartNumber"
+F 6 "FAN AXIAL 40X10MM 24VDC WIRE" H 3900 3700 50  0001 C CNN "Description"
+	1    3900 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3100 3900 3050
+Wire Wire Line
+	3900 3050 4500 3050
+Wire Wire Line
+	5050 3050 5050 3100
+Wire Wire Line
+	3900 4300 3900 4350
+Wire Wire Line
+	3900 4350 4500 4350
+Wire Wire Line
+	5050 4350 5050 4300
+Wire Wire Line
+	4500 3050 4500 2950
+Connection ~ 4500 3050
+Wire Wire Line
+	4500 3050 5050 3050
+Wire Wire Line
+	4500 4350 4500 4450
+Connection ~ 4500 4350
+Wire Wire Line
+	4500 4350 5050 4350
+$EndSCHEMATC
