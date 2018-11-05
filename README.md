@@ -1,18 +1,18 @@
-- [Repository Information](#orgac74dd6)
-  - [Description](#org320379c)
-- [Images](#org3bbe651)
-- [Schematic](#orgb8432b6)
-- [Gerbers](#org519b780)
-- [Bill of Materials](#orgbd8378b)
-  - [PCB Parts](#org0bbb018)
-  - [Supplemental Parts](#org8660fcc)
-  - [Vendor Parts Lists](#orgf96ffd9)
-- [Supplemental Documentation](#org0b25277)
-  - [Assembly Instructions](#orgb3a634c)
+- [Repository Information](#org0db53be)
+  - [Description](#org0acea5f)
+- [Images](#org0d5f30a)
+- [Schematic](#org35c31fb)
+- [Gerbers](#org806ef14)
+- [Bill of Materials](#orgb4d15ec)
+  - [PCB Parts](#org1f9e314)
+  - [Supplemental Parts](#org60655b2)
+  - [Vendor Parts Lists](#org40b2724)
+- [Supplemental Documentation](#org7a75c65)
+  - [Assembly Instructions](#org80c2da5)
 
 
 
-<a id="orgac74dd6"></a>
+<a id="org0db53be"></a>
 
 # Repository Information
 
@@ -24,17 +24,19 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org320379c"></a>
+<a id="org0acea5f"></a>
 
 ## Description
 
 
-<a id="org3bbe651"></a>
+<a id="org0d5f30a"></a>
 
 # Images
 
+![img](./images/top.png)
 
-<a id="orgb8432b6"></a>
+
+<a id="org35c31fb"></a>
 
 # Schematic
 
@@ -51,17 +53,17 @@
 ![img](./schematic/images/schematic04.png)
 
 
-<a id="org519b780"></a>
+<a id="org806ef14"></a>
 
 # Gerbers
 
 
-<a id="orgbd8378b"></a>
+<a id="orgb4d15ec"></a>
 
 # Bill of Materials
 
 
-<a id="org0bbb018"></a>
+<a id="org1f9e314"></a>
 
 ## PCB Parts
 
@@ -78,7 +80,7 @@
 | 9    | L1 L2 L3 L4                                                 | 4        | 475-2864-2-ND  | digikey           | EMITTER IR 860NM 100MA SMD          |
 
 
-<a id="org8660fcc"></a>
+<a id="org60655b2"></a>
 
 ## Supplemental Parts
 
@@ -90,7 +92,7 @@
 | 4    | 2        | A33692-ND   | digikey | CONN D-SUB FEMALE SCREW LOCK |
 
 
-<a id="orgf96ffd9"></a>
+<a id="org40b2724"></a>
 
 ## Vendor Parts Lists
 
@@ -103,11 +105,11 @@
 [./bom/supplemental\_digikey\_parts.csv](./bom/supplemental_digikey_parts.csv)
 
 
-<a id="org0b25277"></a>
+<a id="org7a75c65"></a>
 
 # Supplemental Documentation
 
 
-<a id="orgb3a634c"></a>
+<a id="org80c2da5"></a>
 
 ## Assembly Instructions

@@ -1,4 +1,4 @@
-# Created 2018-11-05 Mon 10:19
+# Created 2018-11-05 Mon 10:20
 * Bill of Materials
 #+RESULTS: pcb-parts
 | Item | Reference(s)                                                | Quantity | PartNumber     | Vendor            | Description                         |
