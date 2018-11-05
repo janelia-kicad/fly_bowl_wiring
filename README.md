@@ -1,18 +1,18 @@
-- [Repository Information](#org3a7e003)
-  - [Description](#org6c6f387)
-- [Images](#orge4f3e96)
-- [Schematic](#orgc1eb895)
-- [Gerbers](#orgd747a18)
-- [Bill of Materials](#org899f177)
-  - [PCB Parts](#orgc73b154)
-  - [Supplemental Parts](#orge063737)
-  - [Vendor Parts Lists](#orgae43a7f)
-- [Supplemental Documentation](#org2a020da)
-  - [Assembly Instructions](#org5a6685d)
+- [Repository Information](#orgac74dd6)
+  - [Description](#org320379c)
+- [Images](#org3bbe651)
+- [Schematic](#orgb8432b6)
+- [Gerbers](#org519b780)
+- [Bill of Materials](#orgbd8378b)
+  - [PCB Parts](#org0bbb018)
+  - [Supplemental Parts](#org8660fcc)
+  - [Vendor Parts Lists](#orgf96ffd9)
+- [Supplemental Documentation](#org0b25277)
+  - [Assembly Instructions](#orgb3a634c)
 
 
 
-<a id="org3a7e003"></a>
+<a id="orgac74dd6"></a>
 
 # Repository Information
 
@@ -24,17 +24,17 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org6c6f387"></a>
+<a id="org320379c"></a>
 
 ## Description
 
 
-<a id="orge4f3e96"></a>
+<a id="org3bbe651"></a>
 
 # Images
 
 
-<a id="orgc1eb895"></a>
+<a id="orgb8432b6"></a>
 
 # Schematic
 
@@ -51,26 +51,34 @@
 ![img](./schematic/images/schematic04.png)
 
 
-<a id="orgd747a18"></a>
+<a id="org519b780"></a>
 
 # Gerbers
 
 
-<a id="org899f177"></a>
+<a id="orgbd8378b"></a>
 
 # Bill of Materials
 
 
-<a id="orgc73b154"></a>
+<a id="org0bbb018"></a>
 
 ## PCB Parts
 
-|    |
-|--- |
-|  |
+| Item | Reference(s)                                                | Quantity | PartNumber     | Vendor            | Description                         |
+|---- |----------------------------------------------------------- |-------- |-------------- |----------------- |----------------------------------- |
+| 1    | BL1 BL2 BL3 BL4                                             | 4        | MOBL\_150x150  | smartvisionlights | Maximum Operating Backlight 150x150 |
+| 2    | CABLE1 CABLE2                                               | 2        | 1195-7211-ND   | digikey           | CABLE ASSY DB09 SHLD BEIGE 2M       |
+| 3    | CABLE10 CABLE11 CABLE13 CABLE14 CABLE4 CABLE5 CABLE7 CABLE8 | 8        | 277-8345-ND    | digikey           | CBL FMALE RA TO MALE 5POS 1.5M      |
+| 4    | CABLE12 CABLE3 CABLE6 CABLE9                                | 4        | GC14333-ND     | digikey           | USB3.0-A-USB3.0-MICRO-B 3M GOLD     |
+| 5    | CAMERA1 CAMERA2 CAMERA3 CAMERA4                             | 4        | FL3-U3-13Y3M-C | flir              | 1280x1024 150 FPS Mono              |
+| 6    | F1 F2 F3 F4 F5 F6 F7 F8                                     | 8        | 381-2367-ND    | digikey           | FAN AXIAL 40X10MM 24VDC WIRE        |
+| 7    | J1                                                          | 1        | 277-2667-ND    | digikey           | CONN DSUB PLUG 9POS STR TERM BLK    |
+| 8    | J2                                                          | 1        | 277-2668-ND    | digikey           | CONN DSUB RCPT 9POS STR TERM BLK    |
+| 9    | L1 L2 L3 L4                                                 | 4        | 475-2864-2-ND  | digikey           | EMITTER IR 860NM 100MA SMD          |
 
 
-<a id="orge063737"></a>
+<a id="org8660fcc"></a>
 
 ## Supplemental Parts
 
@@ -82,7 +90,7 @@
 | 4    | 2        | A33692-ND   | digikey | CONN D-SUB FEMALE SCREW LOCK |
 
 
-<a id="orgae43a7f"></a>
+<a id="orgf96ffd9"></a>
 
 ## Vendor Parts Lists
 
@@ -95,11 +103,11 @@
 [./bom/supplemental\_digikey\_parts.csv](./bom/supplemental_digikey_parts.csv)
 
 
-<a id="org2a020da"></a>
+<a id="org0b25277"></a>
 
 # Supplemental Documentation
 
 
-<a id="org5a6685d"></a>
+<a id="orgb3a634c"></a>
 
 ## Assembly Instructions
