@@ -9,5 +9,6 @@
 
 * Description
 
+  Wiring schematics and documentation for the multiple fly bowl rig.
 
 * Assembly Instructions
