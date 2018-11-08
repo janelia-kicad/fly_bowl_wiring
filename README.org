@@ -1,4 +1,4 @@
-# Created 2018-11-05 Mon 10:20
+# Created 2018-11-08 Thu 10:04
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -10,6 +10,8 @@
 - Email :: peterpolidoro@gmail.com
 
 ** Description
+
+Wiring schematics and documentation for the multiple fly bowl rig.
 
 * Images
 
@@ -69,3 +71,24 @@
 * Supplemental Documentation
 
 ** Assembly Instructions
+
+*** Pinout
+
+| Fly Bowl | Description       | DB9 | Channel | Pin |
+|----------+-------------------+-----+---------+-----|
+|        0 | IR BACKLIGHT      |     |       8 |  20 |
+|        0 | VISIBLE BACKLIGHT |     |       9 |  21 |
+|        0 | FAN               |   2 |       0 |   2 |
+|        0 | LED               |   2 |       4 |  30 |
+|        1 | IR BACKLIGHT      |     |      10 |  22 |
+|        1 | VISIBLE BACKLIGHT |     |      11 |  23 |
+|        1 | FAN               |   4 |       1 |   5 |
+|        1 | LED               |   4 |       5 |  14 |
+|        2 | IR BACKLIGHT      |     |      12 |  35 |
+|        2 | VISIBLE BACKLIGHT |     |      13 |  36 |
+|        2 | FAN               |   6 |       2 |   6 |
+|        2 | LED               |   6 |       6 |  18 |
+|        3 | IR BACKLIGHT      |     |      14 |  37 |
+|        3 | VISIBLE BACKLIGHT |     |      15 |  38 |
+|        3 | FAN               |   8 |       3 |  29 |
+|        3 | LED               |   8 |       7 |  19 |

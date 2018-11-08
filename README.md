@@ -1,18 +1,19 @@
-- [Repository Information](#org0db53be)
-  - [Description](#org0acea5f)
-- [Images](#org0d5f30a)
-- [Schematic](#org35c31fb)
-- [Gerbers](#org806ef14)
-- [Bill of Materials](#orgb4d15ec)
-  - [PCB Parts](#org1f9e314)
-  - [Supplemental Parts](#org60655b2)
-  - [Vendor Parts Lists](#org40b2724)
-- [Supplemental Documentation](#org7a75c65)
-  - [Assembly Instructions](#org80c2da5)
+- [Repository Information](#org0afdf32)
+  - [Description](#org596049b)
+- [Images](#orge4f3d18)
+- [Schematic](#org34bae27)
+- [Gerbers](#org14794f0)
+- [Bill of Materials](#org734de70)
+  - [PCB Parts](#org9081ecc)
+  - [Supplemental Parts](#org0a72ca0)
+  - [Vendor Parts Lists](#org8bbc48d)
+- [Supplemental Documentation](#orge9ed6f4)
+  - [Assembly Instructions](#org08530ce)
+    - [Pinout](#org10124c1)
 
 
 
-<a id="org0db53be"></a>
+<a id="org0afdf32"></a>
 
 # Repository Information
 
@@ -24,19 +25,21 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org0acea5f"></a>
+<a id="org596049b"></a>
 
 ## Description
 
+Wiring schematics and documentation for the multiple fly bowl rig.
 
-<a id="org0d5f30a"></a>
+
+<a id="orge4f3d18"></a>
 
 # Images
 
 ![img](./images/top.png)
 
 
-<a id="org35c31fb"></a>
+<a id="org34bae27"></a>
 
 # Schematic
 
@@ -53,17 +56,17 @@
 ![img](./schematic/images/schematic04.png)
 
 
-<a id="org806ef14"></a>
+<a id="org14794f0"></a>
 
 # Gerbers
 
 
-<a id="orgb4d15ec"></a>
+<a id="org734de70"></a>
 
 # Bill of Materials
 
 
-<a id="org1f9e314"></a>
+<a id="org9081ecc"></a>
 
 ## PCB Parts
 
@@ -80,7 +83,7 @@
 | 9    | L1 L2 L3 L4                                                 | 4        | 475-2864-2-ND  | digikey           | EMITTER IR 860NM 100MA SMD          |
 
 
-<a id="org60655b2"></a>
+<a id="org0a72ca0"></a>
 
 ## Supplemental Parts
 
@@ -92,7 +95,7 @@
 | 4    | 2        | A33692-ND   | digikey | CONN D-SUB FEMALE SCREW LOCK |
 
 
-<a id="org40b2724"></a>
+<a id="org8bbc48d"></a>
 
 ## Vendor Parts Lists
 
@@ -105,11 +108,35 @@
 [./bom/supplemental\_digikey\_parts.csv](./bom/supplemental_digikey_parts.csv)
 
 
-<a id="org7a75c65"></a>
+<a id="orge9ed6f4"></a>
 
 # Supplemental Documentation
 
 
-<a id="org80c2da5"></a>
+<a id="org08530ce"></a>
 
 ## Assembly Instructions
+
+
+<a id="org10124c1"></a>
+
+### Pinout
+
+| Fly Bowl | Description       | DB9 | Channel | Pin |
+|-------- |----------------- |--- |------- |--- |
+| 0        | IR BACKLIGHT      |     | 8       | 20  |
+| 0        | VISIBLE BACKLIGHT |     | 9       | 21  |
+| 0        | FAN               | 2   | 0       | 2   |
+| 0        | LED               | 2   | 4       | 30  |
+| 1        | IR BACKLIGHT      |     | 10      | 22  |
+| 1        | VISIBLE BACKLIGHT |     | 11      | 23  |
+| 1        | FAN               | 4   | 1       | 5   |
+| 1        | LED               | 4   | 5       | 14  |
+| 2        | IR BACKLIGHT      |     | 12      | 35  |
+| 2        | VISIBLE BACKLIGHT |     | 13      | 36  |
+| 2        | FAN               | 6   | 2       | 6   |
+| 2        | LED               | 6   | 6       | 18  |
+| 3        | IR BACKLIGHT      |     | 14      | 37  |
+| 3        | VISIBLE BACKLIGHT |     | 15      | 38  |
+| 3        | FAN               | 8   | 3       | 29  |
+| 3        | LED               | 8   | 7       | 19  |
