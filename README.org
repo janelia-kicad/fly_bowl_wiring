@@ -1,4 +1,4 @@
-# Created 2018-11-08 Thu 10:04
+# Created 2018-11-08 Thu 16:57
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -71,6 +71,13 @@ Wiring schematics and documentation for the multiple fly bowl rig.
 * Supplemental Documentation
 
 ** Assembly Instructions
+
+*** Fly Bowl Numbering
+
+| Enclosure | Left | Right |
+|-----------+------+-------|
+| Back      |    0 |     1 |
+| Front     |    2 |     3 |
 
 *** Pinout
 

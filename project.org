@@ -13,6 +13,13 @@
 
 * Assembly Instructions
 
+** Fly Bowl Numbering
+
+   | Enclosure | Left | Right |
+   |-----------+------+-------|
+   | Back      |    0 |     1 |
+   | Front     |    2 |     3 |
+
 ** Pinout
 
    | Fly Bowl | Description       | DB9 | Channel | Pin |

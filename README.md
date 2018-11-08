@@ -1,19 +1,20 @@
-- [Repository Information](#org0afdf32)
-  - [Description](#org596049b)
-- [Images](#orge4f3d18)
-- [Schematic](#org34bae27)
-- [Gerbers](#org14794f0)
-- [Bill of Materials](#org734de70)
-  - [PCB Parts](#org9081ecc)
-  - [Supplemental Parts](#org0a72ca0)
-  - [Vendor Parts Lists](#org8bbc48d)
-- [Supplemental Documentation](#orge9ed6f4)
-  - [Assembly Instructions](#org08530ce)
-    - [Pinout](#org10124c1)
+- [Repository Information](#org5d01f4c)
+  - [Description](#org7bdbe54)
+- [Images](#orga88a7af)
+- [Schematic](#orgfa994a7)
+- [Gerbers](#org85a91a5)
+- [Bill of Materials](#org50d0c9e)
+  - [PCB Parts](#org6052fe0)
+  - [Supplemental Parts](#org0777733)
+  - [Vendor Parts Lists](#orgdc4b698)
+- [Supplemental Documentation](#org8bbaf5e)
+  - [Assembly Instructions](#orgb2714cb)
+    - [Fly Bowl Numbering](#orgf5f44a9)
+    - [Pinout](#org80ec714)
 
 
 
-<a id="org0afdf32"></a>
+<a id="org5d01f4c"></a>
 
 # Repository Information
 
@@ -25,21 +26,21 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org596049b"></a>
+<a id="org7bdbe54"></a>
 
 ## Description
 
 Wiring schematics and documentation for the multiple fly bowl rig.
 
 
-<a id="orge4f3d18"></a>
+<a id="orga88a7af"></a>
 
 # Images
 
 ![img](./images/top.png)
 
 
-<a id="org34bae27"></a>
+<a id="orgfa994a7"></a>
 
 # Schematic
 
@@ -56,17 +57,17 @@ Wiring schematics and documentation for the multiple fly bowl rig.
 ![img](./schematic/images/schematic04.png)
 
 
-<a id="org14794f0"></a>
+<a id="org85a91a5"></a>
 
 # Gerbers
 
 
-<a id="org734de70"></a>
+<a id="org50d0c9e"></a>
 
 # Bill of Materials
 
 
-<a id="org9081ecc"></a>
+<a id="org6052fe0"></a>
 
 ## PCB Parts
 
@@ -83,7 +84,7 @@ Wiring schematics and documentation for the multiple fly bowl rig.
 | 9    | L1 L2 L3 L4                                                 | 4        | 475-2864-2-ND  | digikey           | EMITTER IR 860NM 100MA SMD          |
 
 
-<a id="org0a72ca0"></a>
+<a id="org0777733"></a>
 
 ## Supplemental Parts
 
@@ -95,7 +96,7 @@ Wiring schematics and documentation for the multiple fly bowl rig.
 | 4    | 2        | A33692-ND   | digikey | CONN D-SUB FEMALE SCREW LOCK |
 
 
-<a id="org8bbc48d"></a>
+<a id="orgdc4b698"></a>
 
 ## Vendor Parts Lists
 
@@ -108,17 +109,27 @@ Wiring schematics and documentation for the multiple fly bowl rig.
 [./bom/supplemental\_digikey\_parts.csv](./bom/supplemental_digikey_parts.csv)
 
 
-<a id="orge9ed6f4"></a>
+<a id="org8bbaf5e"></a>
 
 # Supplemental Documentation
 
 
-<a id="org08530ce"></a>
+<a id="orgb2714cb"></a>
 
 ## Assembly Instructions
 
 
-<a id="org10124c1"></a>
+<a id="orgf5f44a9"></a>
+
+### Fly Bowl Numbering
+
+| Enclosure | Left | Right |
+|--------- |---- |----- |
+| Back      | 0    | 1     |
+| Front     | 2    | 3     |
+
+
+<a id="org80ec714"></a>
 
 ### Pinout
 
